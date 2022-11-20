@@ -14,9 +14,9 @@ int main()
     srand(time(0));
     for(i=0; i< rnum; i++)
     {
-        rnum = rand()%(100)+1;
-        cout<<endl<<rnum;
+        
+        cout<<rand()%101<<" ";
     }
-    cout<<endl;
+    
     return 0;
 }
