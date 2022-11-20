@@ -6,13 +6,13 @@ using namespace std;
 int main()
 
 {
-    int i, rnum, amount;
+    int rnum;
    
-    cout<<" Enter N amount of numbers to generate ";
-    cin>>amount;
+  //  cout<<" Enter N amount of numbers to generate ";
+    cin>>rnum;
    
     srand(time(0));
-    for(i=0; i<amount; i++)
+    for(i=0; i< rnum; i++)
     {
         rnum = rand()%(100)+1;
         cout<<endl<<rnum;
