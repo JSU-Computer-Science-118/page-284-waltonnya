@@ -12,7 +12,7 @@ int main()
     cin>>rnum;
    
     srand(time(0));
-    for(i=0; i< rnum; i++)
+    for(int i=0; i< rnum; i++)
     {
         
         cout<<rand()%101<<" ";
